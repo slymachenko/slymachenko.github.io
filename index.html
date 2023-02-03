@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arsenii Bryndin</title>
+    <link type="image/jpg" sizes="16x16" rel="icon" href="./icons/site_icon.jpg" />
+    <base target="_blank" />
+    <link rel="stylesheet" href="./style.css" />
+    <script>
+      document.documentElement.classList.toggle(
+        "dark",
+        localStorage.theme === "dark" ||
+          (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
+      );
+    </script>
+  </head>
+  <body>
+    <div id="switch_dark_mode">
+      <img id="sun" src="/icons/sun.png" alt="Dark Mode" />
+      <img id="moon" src="/icons/moon.png" alt="Light Mode" />
+    </div>
+    <div id="container">
+      <div>
+        <header>
+          <h1>Arsenii Bryndin</h1>
+          <img src="./imgs/picture.jpg" alt="Picture" />
+        </header>
+        <p>
+          Ukrainian Node.js developer and Computer Science student interested in back-end, 3D graphics and game-dev. Started in 2019
+        </p>
+      </div>
+      <div>
+        <h2>Links</h2>
+        <ul class="inline">
+          <li><a href="https://www.linkedin.com/in/arsenii-bryndin-7a12371b4/">LinkedIn</a></li>
+          <li><a href="https://github.com/slymachenko">GitHub</a></li>
+          <li><a href="https://leetcode.com/slymachenko/">LeetCode</a></li>
+          <li><a href="https://stackoverflow.com/users/13793162/slymachenko">Stack Overflow</a></li>
+          <li><a href="https://twitter.com/slymachenko">Twitter</a></li>
+          <li><a href="mailto:arsenii.bryndin@gmail.com">Mail Me</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Skills</h2>
+        <ul class="square skills">
+          <li>HTML5, CSS3</li>
+          <li>EJS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Node.js, Express.js</li>
+          <li>C/C++</li>
+          <li>Python</li>
+          <li>MongoDB</li>
+          <li>SQLite3</li>
+          <li>Knex</li>
+          <li>Heroku, Render</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Project Experience</h2>
+        <dl>
+          <dt>
+            <b>
+              <a href="https://github.com/SENYa-408/pepe-homework-bot">Pepe the Frog</a>
+            </b>
+          </dt>
+          <dd>
+            <em>JavaScript, Node.js, MongoDB</em>
+          </dd>
+          <dd>Telegram bot for keeping homework easy accessible for every classmate</dd>
+          <br />
+          <dt>
+            <b>
+              <a href="https://github.com/SENYa-408/scia-notify-bot">SCIA Notify Bot</a>
+            </b>
+          </dt>
+          <dd>
+            <em>JavaScript, Node.js, MongoDB</em>
+          </dd>
+          <dd>
+            Notification Telegram Bot for Student committee of international affairs of Dnipro
+            National University
+          </dd>
+          <br />
+          <dt>
+            <b>
+              <a href="https://github.com/slymachenko/UI-course-project">UI Course Project</a>
+            </b>
+          </dt>
+          <dd>
+            <em>EJS, CSS, JavaScript, TypeScript, Node.js, Express.js</em>
+          </dd>
+          <dd>User Interface course project deployed on Render</dd>
+          <br />
+          <dt>
+            <b>
+              <a href="https://github.com/SENYa-408/bresenhams-line-algorithm"
+                >Bresenham's line algorithm visualization</a
+              ></b
+            >
+          </dt>
+          <dd>
+            <em>HTML, CSS, JavaScript</em>
+          </dd>
+          <dd>
+            Web app for drawing a close approximation to a straight line between two points using
+            Bresenham's line algorithm
+          </dd>
+        </dl>
+      </div>
+      <div>
+        <h2>Education</h2>
+        <dl>
+          <dt>
+            <b><a href="https://www.dnu.dp.ua/eng">Dnipro National University</a> (2021-2025)</b>
+          </dt>
+          <dd><em>Dnipro, Ukraine</em> 🇺🇦</dd>
+          <dd>
+            <ul class="square">
+              <li>GPA 3.6</li>
+              <li>Recieving a scholarship for academic achievements</li>
+              <li>Main Courses:
+                <ul>
+                  <li>Algorythms and Programming (100)</li>
+                  <li>Electical Engineering (75)</li>
+                  <li>Computer Architecture (80)</li>
+                  <li>Object-Oriented Programming (91)</li>
+                  <li>Operating Systems (84)</li>
+                  <li>Web-technology and Web-design (100)</li>
+                  <li>Server-side Application Development (94)</li>
+                </ul>
+              </li>
+            </ul>
+          </dd>
+          <br />
+          <dt>
+            <b
+              >Specialized secondary school #9 with in-depth study of English, Dnipro (2018-2021)</b
+            >
+          </dt>
+          <dd><em>Dnipro, Ukraine</em> 🇺🇦</dd>
+          <dd>
+            <ul class="square">
+              <li>GPA 3.72</li>
+              <li>Awarded with a diploma and a silver medal for high academic achievements</li>
+            </ul>
+          </dd>
+        </dl>
+      </div>
+      <div>
+        <h2>Languages</h2>
+        <table>
+          <tr>
+            <td>🇺🇦</td>
+            <td>Ukrainian</td>
+            <td>native</td>
+          </tr>
+          <tr>
+            <td>RU</td>
+            <td>Russian</td>
+            <td>native</td>
+          </tr>
+          <tr>
+            <td>🇬🇧</td>
+            <td>English</td>
+            <td>C1</td>
+          </tr>
+          <tr>
+            <td>🇮🇹</td>
+            <td>Italian</td>
+            <td>A2</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script>
+      const switchDarkModeBtn = document.getElementById("switch_dark_mode");
+
+      switchDarkModeBtn.addEventListener("click", () => {
+        localStorage.setItem("theme", localStorage.theme == "dark" ? "light" : "dark");
+        document.documentElement.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>
