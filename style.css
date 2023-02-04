@@ -54,7 +54,7 @@ a:hover {
 #container {
   text-align: justify;
   font-size: clamp(16px, 3vw, 22px);
-  width: min(80%, 700px);
+  width: min(95%, 700px);
   margin: auto;
 }
 
