@@ -40,15 +40,15 @@ a:hover {
   bottom: 10px;
 }
 
-#sun {
+#moon {
   position: absolute;
   transition: 0.2s;
-  opacity: var(--dark-mode-display);
+  opacity: var(--light-mode-display);
 }
 
-#moon {
+#sun {
   transition: 0.2s;
-  opacity: var(--light-mode-display);
+  opacity: var(--dark-mode-display);
 }
 
 #container {
