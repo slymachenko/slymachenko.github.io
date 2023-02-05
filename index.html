@@ -8,13 +8,7 @@
     <link type="image/jpg" sizes="16x16" rel="icon" href="./icons/site_icon.jpg" />
     <base target="_blank" />
     <link rel="stylesheet" href="./style.css" />
-    <script>
-      document.documentElement.classList.toggle(
-        "dark",
-        localStorage.theme === "dark" ||
-          (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
-      );
-    </script>
+    <script src="switchDarkMode.js"></script>
   </head>
   <body>
     <div id="switch_dark_mode">
@@ -175,13 +169,5 @@
         </table>
       </div>
     </div>
-    <script>
-      const switchDarkModeBtn = document.getElementById("switch_dark_mode");
-
-      switchDarkModeBtn.addEventListener("click", () => {
-        localStorage.setItem("theme", localStorage.theme == "dark" ? "light" : "dark");
-        document.documentElement.classList.toggle("dark");
-      });
-    </script>
   </body>
 </html>
